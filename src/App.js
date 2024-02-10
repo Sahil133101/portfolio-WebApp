@@ -1,25 +1,56 @@
-import logo from './logo.svg';
-import './App.css';
+// import React from "react";
+// import './index.css';
 
-function App() {
+//  import Home from "./Routes/Home";
+// import Contact from "./Routes/Contact";
+// import About from "./Routes/About";
+// import Project from "./Routes/Project";
+// import { Route, Routes } from "react-router-dom";
+
+// export default function App() {
+//   return (
+//     <>
+//     {/* <Routes>
+//       <Route path="Home" element= {<Home /> } />
+//       <Route path="Project" element= {<Project /> } />
+//       <Route path="Contact" element= {<Contact /> } />
+//       <Route path="About" element= {<About /> } /> */}
+
+
+
+
+
+// {/* 
+//     </Routes> */}
+//     <Routes>
+//     <Route path="/Home" element= {<Home /> } />
+//     <Route path="/Project" element= {<Project /> } />
+//     <Route path="/Contact" element= {<Contact /> } />
+//     <Route path="/About" element= {<About /> } />
+//     </Routes>
+//     {/* <h3> hello</h3> */}
+//     </>
+//   );
+// }
+
+import React from "react";
+import './index.css';
+import { Route, Routes } from "react-router-dom";
+import Home from "./Routes/Home";
+import Contact from "./Routes/Contact";
+import About from "./Routes/About";
+import Project from "./Routes/Project";
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Project />} />
+        <Route path="/" element={<Contact />} />
+        <Route path="/" element={<About />} />
+      </Routes>
+    </>
   );
 }
 
-export default App;
