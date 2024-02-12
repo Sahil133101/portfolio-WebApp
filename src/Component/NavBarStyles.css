@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 20px;
+  
+}
+.Navbar{
+    display: flex;
+}
+.Navbar li {
+    padding:  0 2rem;
+    
+
+     
+}
+/* .Navbar li:hover {
+    padding-right: 20px;
+    background-color: transparent;
+    color: white;
+    transition: 0.3s;
+   }  */
+
+.navbar li a{
+font-size: 1.2rem;
+font-weight: 500;
+}
+/* .H1:hover{
+    padding-left: 50px;
+    background-color: tra;
+    color: white;
+    transition: 0.3s;
+    
+} */
+@media screen and (max-width:1040px){
+    .navbar{
+        flex-direction: column;
+        justify-content:center ;
+        
+        align-items: center;
+    }
+    
+}

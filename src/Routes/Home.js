@@ -1,4 +1,5 @@
 import React from "react";
+import NavBar from "../Component/NavBar";
 
 // export default function Home(){
 
@@ -11,7 +12,8 @@ const Home = () => {
 
     return (
         <>
-        <h3> Hello</h3>
+
+        <NavBar></NavBar>
         </>
     );
 }
