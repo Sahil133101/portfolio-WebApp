@@ -22,8 +22,8 @@
     transition: 0.3s;
    }  */
 
-.navbar li a{
-font-size: 1.2rem;
+.Navbar li a{
+font: size 200px; ;
 font-weight: 500;
 }
 /* .H1:hover{
@@ -33,13 +33,39 @@ font-weight: 500;
     transition: 0.3s;
     
 } */
-@media screen and (max-width:1040px){
-    .navbar{
+.hamburger{
+    display: none;
+   
+}
+@media screen and (max-width:1040px)
+/* @media screen and (max-width:1040px){ */ {
+    .Navbar{
         flex-direction: column;
         justify-content:center ;
         
         align-items: center;
+        width : 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: -3;
+        transition: 0.3s;
+
+    }
+    .Navbar.active{
+        left:0;
         
     }
+    .Navbar li {
+        padding: 1rem 0;
+    }
     
+    .Navbar li a {
+        font-size:  2 rem;
+    }
+    .hamburger {
+        display: initial;
+    }
 }
