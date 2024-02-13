@@ -40,6 +40,7 @@ import Home from "./Routes/Home";
 import Contact from "./Routes/Contact";
 import About from "./Routes/About";
 import Project from "./Routes/Project";
+import Main from "./Component/Main";
 
 export default function App() {
   return (

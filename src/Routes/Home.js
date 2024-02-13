@@ -1,12 +1,11 @@
 import React from "react";
 import NavBar from "../Component/NavBar";
 
-// export default function Home(){
+import Main from "../Component/Main";
 
-//     return (
-//         <></>
-//     );
-// }
+
+
+
 
 const Home = () => {
 
@@ -14,6 +13,7 @@ const Home = () => {
         <>
 
         <NavBar></NavBar>
+        <Main> </Main>
         </>
     );
 }
