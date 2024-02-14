@@ -3,6 +3,8 @@ import NavBar from "../Component/NavBar";
 
 import Main from "../Component/Main";
 
+import Footer from "../Component/Footer";
+
 
 
 
@@ -14,6 +16,7 @@ const Home = () => {
 
         <NavBar></NavBar>
         <Main> </Main>
+        <footer> </footer>
         </>
     );
 }
