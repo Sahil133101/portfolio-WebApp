@@ -3,13 +3,33 @@
 import "./Main.css";
 import React from 'react';
 
+import introimg from  "../assests/wallpaper.jpg";
+import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
-    <div>
-        <>
-        <h1> hello </h1></>
+    <div className="Hero">
+      <div className="mask">
+        <img className=" intro-img" 
+        src={introimg} alt="IntroImg"/>
+          
+          
+        
+      </div>
+      <div className="Content">
+
+        <p> Sidhant Rand</p>
+        <h1> A Proffesional Slave </h1>
+<div> 
+
+
+        <Link to="/project" className="btn"> Projects</Link>
+    <Link to="/contact" className="btn btn-light"> Contact</Link>
+      </div>
     </div>
+    
+   
+    </div> 
   )
 }
 
