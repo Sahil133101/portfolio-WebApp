@@ -16,7 +16,7 @@ const Home = () => {
 
         <NavBar></NavBar>
         <Main> </Main>
-        <footer> </footer>
+        <Footer> </Footer>
         </>
     );
 }

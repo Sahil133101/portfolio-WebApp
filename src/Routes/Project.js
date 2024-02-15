@@ -14,6 +14,9 @@ const Project = () => {
               <li>
                 Rajeev Gupta
               </li>
+              <li>
+                <h1> PRANAV SHARMA</h1>
+              </li>
             </ul>
         </h3>
     </div>

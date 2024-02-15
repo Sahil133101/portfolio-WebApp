@@ -3,7 +3,7 @@
 import "./Main.css";
 import React from 'react';
 
-import introimg from  "../assests/wallpaper.jpg";
+import introimg from "../assests/web-developer-portfolio.png";
 import { Link } from "react-router-dom";
 
 const Main = () => {
@@ -18,8 +18,8 @@ const Main = () => {
       </div>
       <div className="Content">
 
-        <p> Sidhant Rand</p>
-        <h1> A Proffesional Slave </h1>
+        <p> MANPREET BRAR</p>
+        <h1> A Proffesional *RAAND* </h1>
 <div> 
 
 
