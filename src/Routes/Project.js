@@ -1,26 +1,19 @@
-import React from 'react'
+import React from 'react';
+import NavBar from "../Component/NavBar";
+import './Project.css';
+import Footer from "../Component/Footer";
 
 const Project = () => {
   return (
     <div>
-        <h3>
-            <ul> customer list 
-              <li>
-                R.P. Singh
-              </li>
-              <li>
-                Rajesh Khanna
-              </li>
-              <li>
-                Rajeev Gupta
-              </li>
-              <li>
-                <h1> PRANAV SHARMA</h1>
-              </li>
-            </ul>
-        </h3>
+      <div className='navbar'>
+        <NavBar/>
+      </div>
+      <div className='project'>
+        <Footer/>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Project;

@@ -1,0 +1,12 @@
+/* Project.css */
+
+.navbar {
+    /* Add styles specific to your navbar */
+  }
+  
+  .project {
+    /* Add styles specific to your project content */
+    margin-top: 20px; /* Adjust the margin to separate the navbar and project content */
+    display: block; /* Ensure the project content is displayed as a block element */
+  }
+  
