@@ -18,8 +18,8 @@ const Main = () => {
       </div>
       <div className="Content">
 
-        <p> MANPREET BRAR</p>
-        <h1> A Proffesional *RAAND* </h1>
+        <p> Sahil Sharma</p>
+        <h1> Frontend Developer </h1>
 <div> 
 
 

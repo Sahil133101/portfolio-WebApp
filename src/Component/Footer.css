@@ -15,14 +15,14 @@
     align-items: center;
   }
   .footer{
-    width:100%;
+    max-width: 100%;
     padding-left: 6rem 0;
     margin-left: 2rem;
-    background-color:color(from color srgb r g b)
+  
   }
   .footer-container{
-    max-width: 1140px;
-    margin:auto;
+    max-width:100%;
+    
     
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -35,6 +35,7 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    margin-left: -20px;
 
   }
   .right{
@@ -49,11 +50,39 @@
     margin-top:1rem;
 
   }
-  @media screen and (max-width:640px){
+  .left,
+.right {
+  height: 100%;
+  width: 100%; /* Change max-width to width */
+  display: flex;
+  flex-direction: column;
+  /* padding: 1rem; */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.footer {
+  max-width: 100%; /* You can remove padding-left and margin-left if not needed */
+
+}
+
+.footer-container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 40px;
+}
+
+@media screen and (max-width: 640px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+  /* @media screen and (max-width:640px){
     .footer-container{
       grid-template-columns: 1fr;
     }
     
-  }
+  } */
   
   
