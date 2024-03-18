@@ -2,13 +2,13 @@ import "./Hero2Image.css"
 
 import React from 'react'
 
-const Hero2Image = () => {
+const Hero2Image = (props) => {
   return (
     <div className="hero-img">
         <div className="heading">
-           <h1> This is Heading
+           <h1> {props.heading}
              </h1> 
-             <p> This is a text</p>
+             <p>{props.text}</p>
              </div>
     </div>
   )
