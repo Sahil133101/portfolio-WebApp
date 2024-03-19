@@ -5,7 +5,7 @@ import "./PricingCardStyle.css";
 
 const PricingCard = () => {
   return (
-    <div className="PricingCard">
+    <div className="CrusialCard">
       <div className="CardContainer">
         <div className="Card">
           <h3>- Basic -</h3>
@@ -36,7 +36,7 @@ const PricingCard = () => {
             <h1>$ 200</h1>
           </p>
           <p>
-            <strong>-5Days-</strong>
+            <strong>-5 Days-</strong>
           </p>
           <p>
             <strong>-10 Pages-</strong>
@@ -52,13 +52,13 @@ const PricingCard = () => {
           </Link>
         </div>
         <div className="Card">
-          <h3>-Business-</h3>
+          <h3>- Business -</h3>
           <span className="Bar"></span>
           <p className="btc">
             <h1>$ 300</h1>
           </p>
           <p>
-            <strong>-8Days-</strong>
+            <strong>-8 Days-</strong>
           </p>
           <p>
             <strong>-15 Pages-</strong>
