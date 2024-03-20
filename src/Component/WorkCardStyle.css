@@ -43,7 +43,19 @@
     padding: 0.5rem 1rem;
     
 }
+.buttons{
+    display: flex;
+    grid-gap: 325px;
+    
+}
+.Heading2 {
+    color: blue; /* Change color to your desired color */
+  }
 
+.Project-Title {
+    color: blue; /* Change color to your desired color */
+  }
+  
 @media screen  and (max-width: 740px){
     .project-container{
         max-width:90% ;
