@@ -3,7 +3,7 @@ import React from 'react'
 import pro1 from "../assests/bluetooth.jpg";
 import { NavLink } from "react-router-dom";
 
-const Work= () => {
+const workcard = () => {
   return (
   <div className="Work-Container"> 
   <h1 className="Project-heading">Project 
@@ -56,4 +56,4 @@ const Work= () => {
   )
 }
 
-export default Work
+export default workcard
