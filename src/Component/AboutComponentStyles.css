@@ -1,0 +1,46 @@
+.About{
+    width:100%;
+    margin:3rem 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.About .Left{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+   /* max-width: 350px; */
+
+}
+.About .Left p{
+    margin: 1.2rem 0;
+
+}
+.About .Right{
+    max-width: 700px;
+}
+.Right .Img-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+ }
+ .Right .img{
+    max-width: 100%;
+    border: 3px solid #333;
+
+ }
+ .Right .top{
+    grid-column: 1/ span 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index:6;
+ }
+ .Right .bottom{
+    grid-column: 4/ -1;
+    grid-row: 1;
+   
+    z-index:5;
+ }
