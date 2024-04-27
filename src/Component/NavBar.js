@@ -32,7 +32,7 @@ const NavBar = () => {
       </Link>
       <ul className={click ? "Navbar active":"Navbar " }>
         <li>
-          <Link to="/Home"> Home </Link>
+          <Link to="/"> Home </Link>
         </li>
         <li>
           <Link to="/Project"> Project </Link>
